@@ -1,0 +1,144 @@
+/* Page Background */
+body {
+  background-color: #f4f7f8;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+/* Headings */
+.card h1,
+.card h4 {
+  font-weight: 700;
+}
+
+.card h1 {
+  font-size: 2rem;
+}
+
+.card h4 {
+  font-size: 1.4rem;
+}
+
+/* Section Title */
+.feedback-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Form Inputs */
+.form-control,
+.form-select {
+  border-radius: 8px;
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  font-size: 15px;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+/* Submit Button */
+button.btn-primary {
+  background-color: #006eff;
+  border: none;
+  font-size: 1.05rem;
+  padding: 12px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #0056cc;
+}
+
+/* Feedback History Section */
+.feedback-history-title {
+  color: #444;
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.feedback-history .list-group-item {
+  border: none;
+  border-radius: 12px;
+  background-color: #f9fbfc;
+  margin-bottom: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-in-out;
+}
+
+.feedback-history .list-group-item:hover {
+  background-color: #f1f7ff;
+}
+
+/* Event Name */
+.feedback-history strong {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #212529;
+}
+
+/* Feedback Comment */
+.feedback-history p {
+  margin-top: 8px;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Stars */
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-secondary {
+  color: #dcdcdc !important;
+}
+
+.star-icons {
+  margin-top: 5px;
+}
+
+/* Alert Animation */
+.animated {
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
